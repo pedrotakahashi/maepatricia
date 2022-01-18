@@ -9,10 +9,10 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const NavbarComponent = () => (
-  <Container>
+  <Container className="fixed-top">
     <Row className="justify-content-center">
       <Col md="auto">
-        <Navbar bg="light" expand="md">
+        <Navbar expand="md" className="navbar-bkg">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">

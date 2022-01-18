@@ -6,7 +6,9 @@ import WppComponent from '../components/WppComponent/WppComponent';
 function App() {
   return (
     <div className="App">
-      <NavbarComponent />
+      <div className="navbar-bkg">
+        <NavbarComponent />
+      </div>
       <WppComponent />
     </div>
   );
