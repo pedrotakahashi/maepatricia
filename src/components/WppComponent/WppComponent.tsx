@@ -13,9 +13,7 @@ const WppComponent = () => (
       className="icon-wpp-button"
       rel="noreferrer"
     >
-      <i>
-        <FaWhatsapp className="wpp-icon" />
-      </i>
+      <FaWhatsapp className="wpp-icon" />
     </a>
   </OverlayTrigger>
 

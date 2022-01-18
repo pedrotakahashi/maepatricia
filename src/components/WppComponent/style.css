@@ -1,21 +1,18 @@
 .icon-wpp-button {
   position:fixed;
-  width:70px;
-  height:70px;
+  width:60px;
+  height:60px;
   bottom:40px;
   right:40px;
   background-color:#25d366;
   color:#FFF;
   border-radius:50px;
   text-align:center;
-  font-size:50px;
+  font-size:40px;
   z-index:100;
 }
 
 .wpp-icon {
-  margin-bottom: 20%;
-}
-
-a{
-  color: none;
+  margin-bottom: 12%;
+  color: white;
 }
