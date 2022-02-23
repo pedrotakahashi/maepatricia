@@ -2,7 +2,7 @@ import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
-  Alert, Container, Row, Col, Card, CardGroup,
+  Alert, Container, Row, Col, Card, CardGroup, Button,
 } from 'react-bootstrap';
 import video1 from '../../assets/videos/video1.mp4';
 import video2 from '../../assets/videos/video2.mp4';
@@ -10,6 +10,7 @@ import img1 from '../../assets/fotos/img3.jpeg';
 import img2 from '../../assets/fotos/img4.jpeg';
 import img3 from '../../assets/fotos/img5.jpeg';
 import img4 from '../../assets/fotos/img1.jpeg';
+import img5 from '../../assets/fotos/img2.jpeg';
 
 const ContentComponent = () => (
 
@@ -154,6 +155,32 @@ const ContentComponent = () => (
       <Col>
         <Alert variant="success">
           <Card.Img variant="top" src={img4} />
+        </Alert>
+      </Col>
+    </Row>
+
+    <Row>
+      <Col>
+        <Alert variant="success">
+          <Card.Img variant="top" src={img5} />
+        </Alert>
+      </Col>
+      <Col>
+        <Alert variant="success">
+          <span>
+            {' '}
+            fale comigo agora e
+            {' '}
+            <b>
+              Comece a mudar
+              <p>já a mudar a sua vida</p>
+            </b>
+            {' '}
+          </span>
+          <Button variant="primary">Telefone</Button>
+
+          <Button variant="secondary">Whats App</Button>
+
         </Alert>
       </Col>
     </Row>
