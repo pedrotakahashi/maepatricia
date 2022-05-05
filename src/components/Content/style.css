@@ -15,7 +15,6 @@
   margin-top: 2rem;
   padding: 1rem 9rem 1rem 9rem !important;
   color: white;
-  
 }
 .under-title {
   width: 50%;
@@ -37,15 +36,13 @@
 
 .card-total{
   background-color: transparent !important;
+  max-height: 100%;
 }
-.text-fixed-card{
-  padding-bottom: 1.4rem;
-}
+
 .bkg-card{
   background-color: rgba(0,0,0, 0.9);
   transition: 1s;
   color: white;
- 
 }
 
 .bkg-card:hover{
@@ -68,5 +65,13 @@
     filter: brightness(200%);
     transition: 0.5s;
     color: yellow;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about-content {
+    margin-top: 2rem;
+    padding: 1rem!important;
+    color: white;
   }
 }
