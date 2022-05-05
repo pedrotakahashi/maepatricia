@@ -1,0 +1,72 @@
+.main-container {
+  margin-top: 2rem;
+}
+.video-class {
+  height: 70%;
+  width: 70%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+.about-content {
+  text-align: justify;
+  background-color: rgba(0,0,0, 0.6);
+  margin-top: 2rem;
+  padding: 1rem 9rem 1rem 9rem !important;
+  color: white;
+  
+}
+.under-title {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  color: white;
+}
+.titles {
+  text-align: center;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.card-total{
+  background-color: transparent !important;
+}
+.text-fixed-card{
+  padding-bottom: 1.4rem;
+}
+.bkg-card{
+  background-color: rgba(0,0,0, 0.9);
+  transition: 1s;
+  color: white;
+ 
+}
+
+.bkg-card:hover{
+  transition: 0.77s;
+  background-color: #d39d88;
+  color: black;
+}
+
+.icon-animation{
+  animation: pulse 0.7s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    filter: brightness(100%);
+  }
+  100% {
+    transform: scale(1.1);
+    filter: brightness(200%);
+    transition: 0.5s;
+    color: yellow;
+  }
+}
