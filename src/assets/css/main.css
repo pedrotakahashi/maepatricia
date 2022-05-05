@@ -1,3 +1,4 @@
 .App {
-  background-color: #EFF1F1;
+  background-color: rgba(43,39,125);
+  background-image: linear-gradient(to bottom, #23214d, #27616d);
 }
