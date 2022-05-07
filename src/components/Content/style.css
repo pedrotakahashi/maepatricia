@@ -4,10 +4,6 @@
 .video-class {
   height: 100%;
   width: 100%;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2rem;
 }
 .about-content {
   text-align: justify;
@@ -33,24 +29,6 @@
   justify-content: center;
   color: white;
 }
-
-.card-total{
-  background-color: transparent !important;
-  max-height: 100%;
-}
-
-.bkg-card{
-  background-color: rgba(0,0,0, 0.9);
-  transition: 1s;
-  color: white;
-}
-
-.bkg-card:hover{
-  transition: 0.77s;
-  background-color: #d39d88;
-  color: black;
-}
-
 .icon-animation{
   animation: pulse 0.7s infinite;
 }
@@ -73,5 +51,9 @@
     margin-top: 2rem;
     padding: 1rem!important;
     color: white;
+  }
+  .icon-animation{
+    width: 2rem;
+    height: 2rem;
   }
 }

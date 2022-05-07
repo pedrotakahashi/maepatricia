@@ -1,7 +1,7 @@
 {
-  "main.css": "/maepatricia/static/css/main.f7eb79dc.chunk.css",
-  "main.js": "/maepatricia/static/js/main.3f8ff29d.chunk.js",
-  "main.js.map": "/maepatricia/static/js/main.3f8ff29d.chunk.js.map",
+  "main.css": "/maepatricia/static/css/main.1bee295a.chunk.css",
+  "main.js": "/maepatricia/static/js/main.9b81e255.chunk.js",
+  "main.js.map": "/maepatricia/static/js/main.9b81e255.chunk.js.map",
   "static/css/1.bd337f89.chunk.css": "/maepatricia/static/css/1.bd337f89.chunk.css",
   "static/js/1.cd36a26f.chunk.js": "/maepatricia/static/js/1.cd36a26f.chunk.js",
   "static/js/1.cd36a26f.chunk.js.map": "/maepatricia/static/js/1.cd36a26f.chunk.js.map",
@@ -14,9 +14,9 @@
   "static/media/img5.jpeg": "/maepatricia/static/media/img5.ab5536d6.jpeg",
   "static/media/img1.jpeg": "/maepatricia/static/media/img1.700567a8.jpeg",
   "static/media/img2.jpeg": "/maepatricia/static/media/img2.2135c79a.jpeg",
-  "static/css/main.f7eb79dc.chunk.css.map": "/maepatricia/static/css/main.f7eb79dc.chunk.css.map",
+  "static/css/main.1bee295a.chunk.css.map": "/maepatricia/static/css/main.1bee295a.chunk.css.map",
   "static/css/1.bd337f89.chunk.css.map": "/maepatricia/static/css/1.bd337f89.chunk.css.map",
   "index.html": "/maepatricia/index.html",
-  "precache-manifest.186010ea4fcd50f19f14c40f89390f14.js": "/maepatricia/precache-manifest.186010ea4fcd50f19f14c40f89390f14.js",
+  "precache-manifest.da3ae4ed6c4eb9538ca34754e85ca038.js": "/maepatricia/precache-manifest.da3ae4ed6c4eb9538ca34754e85ca038.js",
   "service-worker.js": "/maepatricia/service-worker.js"
 }

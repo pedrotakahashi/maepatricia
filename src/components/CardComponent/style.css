@@ -1,0 +1,14 @@
+.card-total {
+  background-color: transparent !important;
+  max-height: 100%;
+}
+.bkg-card{
+  background-color: rgba(0,0,0, 0.9);
+  transition: 1s;
+  color: white;
+}
+.bkg-card:hover{
+  transition: 0.77s;
+  background-color: #d39d88;
+  color: black;
+}
