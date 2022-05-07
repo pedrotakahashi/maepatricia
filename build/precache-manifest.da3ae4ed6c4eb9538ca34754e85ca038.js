@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3f8ff29d1bc8a3bd4921",
-    "url": "/maepatricia/static/css/main.f7eb79dc.chunk.css"
+    "revision": "9b81e2552fb689164cad",
+    "url": "/maepatricia/static/css/main.1bee295a.chunk.css"
   },
   {
-    "revision": "3f8ff29d1bc8a3bd4921",
-    "url": "/maepatricia/static/js/main.3f8ff29d.chunk.js"
+    "revision": "9b81e2552fb689164cad",
+    "url": "/maepatricia/static/js/main.9b81e255.chunk.js"
   },
   {
     "revision": "cd36a26fae940566a009",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/maepatricia/static/media/img2.2135c79a.jpeg"
   },
   {
-    "revision": "072c787efe50ffaef2a60b417c72b567",
+    "revision": "6f320b2f58fd581daccc26d4f849acfe",
     "url": "/maepatricia/index.html"
   }
 ];
