@@ -57,3 +57,16 @@
     height: 2rem;
   }
 }
+
+#videos-container, #photos {
+  min-height: 100%;
+  padding-top: 3rem;
+}
+
+#services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 1.5rem;
+}
