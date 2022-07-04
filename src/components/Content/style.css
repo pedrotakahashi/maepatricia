@@ -13,7 +13,7 @@
   color: white;
 }
 .under-title {
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -56,4 +56,17 @@
     width: 2rem;
     height: 2rem;
   }
+}
+
+#videos-container, #photos {
+  min-height: 100%;
+  padding-top: 3rem;
+}
+
+#services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 1.5rem;
 }

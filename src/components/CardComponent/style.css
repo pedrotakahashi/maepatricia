@@ -12,3 +12,19 @@
   background-color: #d39d88;
   color: black;
 }
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .card-mobile {
+    width: 50% !important;
+  }
+  .card-mobile-100 {
+    width: 100%;
+  }
+}
+
+/* @media (min-width: 768px) and (max-width: 1000px) {
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+} */
