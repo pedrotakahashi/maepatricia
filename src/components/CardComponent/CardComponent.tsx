@@ -1,7 +1,5 @@
 import React from 'react';
 import {
-  Navbar,
-  Nav,
   Container,
   Row,
   Col,
@@ -17,7 +15,7 @@ import img3 from '../../assets/fotos/img5.jpeg';
 const CardComponent = () => (
   <Container>
     <Row className="mt-3 justify-content-center align-items-end mb-4" md={4}>
-      <Col sm={12} md={4} class="card-mobile">
+      <Col sm={12} md={4} className="card-mobile">
         <Card className="card-total">
           <Card.Body className="bkg-card">
             <Card.Title>União de Casais</Card.Title>
@@ -28,7 +26,7 @@ const CardComponent = () => (
           </Card.Body>
         </Card>
       </Col>
-      <Col sm={12} md={4} class="card-mobile">
+      <Col sm={12} md={4} className="card-mobile">
         <Card className="card-total">
           <Card.Body className="bkg-card">
             <Card.Title>Abertura de Caminho</Card.Title>
@@ -40,7 +38,7 @@ const CardComponent = () => (
           </Card.Body>
         </Card>
       </Col>
-      <Col sm={12} md={4} class="card-mobile-100">
+      <Col sm={12} md={4} className="card-mobile-100">
         <Card className="card-total">
           <Card.Body className="bkg-card">
             <Card.Title>Amarração Amorosa</Card.Title>
