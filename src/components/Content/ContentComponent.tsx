@@ -11,7 +11,7 @@ import CardComponent from '../CardComponent/CardComponent';
 import Photos from '../PhotosComponent/PhotosComponent';
 import { Text } from '../../Interface/constants';
 import VideoComponent from '../VideoComponent/VideoComponent';
-import img7 from '../../assets/fotos/img7.jpeg';
+import img3 from '../../assets/fotos/img3.jpeg';
 
 const ContentComponent = () => (
 
@@ -21,7 +21,7 @@ const ContentComponent = () => (
         <div id="home">
           <img
             className="d-block w-75 mx-auto"
-            src={img7}
+            src={img3}
             alt="First slide"
           />
         </div>
