@@ -8,7 +8,7 @@ import {
 
 import SocialComponent from '../SocialMediaComponent/SocialComponent';
 import CardComponent from '../CardComponent/CardComponent';
-// import Photos from '../PhotosComponent/PhotosComponent';
+import Photos from '../PhotosComponent/PhotosComponent';
 import { Text } from '../../Interface/constants';
 import VideoComponent from '../VideoComponent/VideoComponent';
 import img3 from '../../assets/fotos/img3.jpeg';
@@ -93,7 +93,7 @@ const ContentComponent = () => (
           </div>
         </Col>
       </Row>
-      {/* <Photos /> */}
+      <Photos />
     </Container>
     <Row>
       <Col className="under-title mt-4 mb-4" md={6}>
