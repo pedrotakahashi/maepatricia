@@ -1,4 +1,6 @@
 export const Text = {
+  title : "Mãe Patrícia de Xangô",
+  
   biography: 
   " Patricia tinha apenas 8 anos de idade quando começou a revelar pequenos acontecimentos do futuro"+
   "de seus pais e familiares que, impressionados, chamaram amigos e familiares, e assim,"+ 

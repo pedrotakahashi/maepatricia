@@ -7,10 +7,10 @@ import {
 } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import img4 from '../../assets/fotos/img1.jpeg';
-import img5 from '../../assets/fotos/img2.jpeg';
-import img6 from '../../assets/fotos/img6.jpeg';
-import img7 from '../../assets/fotos/img7.jpeg';
+import img1 from '../../assets/fotos/carousel/img1.jpeg';
+import img2 from '../../assets/fotos/carousel/img2.jpeg';
+import img3 from '../../assets/fotos/carousel/img3.jpeg';
+import img4 from '../../assets/fotos/carousel/img4.jpeg';
 
 const Photos = () => (
   <Container>
@@ -20,28 +20,28 @@ const Photos = () => (
           <Carousel.Item>
             <img
               className="d-block w-75 mx-auto"
+              src={img1}
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-75 mx-auto"
+              src={img2}
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-75 mx-auto"
+              src={img3}
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-75 mx-auto"
               src={img4}
-              alt="First slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-75 mx-auto"
-              src={img5}
-              alt="First slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-75 mx-auto"
-              src={img6}
-              alt="First slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-75 mx-auto"
-              src={img7}
               alt="First slide"
             />
           </Carousel.Item>
