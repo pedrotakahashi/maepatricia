@@ -67,7 +67,7 @@ const CardComponent = () => (
           <Card.Body className="bkg-card">
             <Card.Title>Saiba mais sobre o seu Futuro</Card.Title>
             <Card.Text>
-              Previsões para 2022, descubra mais sobre você
+              Descubra mais sobre você com nossas previsões
               {' '}
             </Card.Text>
           </Card.Body>

@@ -1,54 +1,51 @@
-import React from 'react';
-import {
-  Container,
-  Col,
-  Row,
-  Carousel,
-} from 'react-bootstrap';
+import React, { useEffect, useState } from 'react';
+import { Container, Col, Row, Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import img1 from '../../assets/fotos/carousel/img1.jpeg';
-import img2 from '../../assets/fotos/carousel/img2.jpeg';
-import img3 from '../../assets/fotos/carousel/img3.jpeg';
-import img4 from '../../assets/fotos/carousel/img4.jpeg';
+import { getStorage, ref, listAll, getDownloadURL } from 'firebase/storage';
+import { initApp } from '../../api/configs';
 
-const Photos = () => (
-  <Container>
-    <Row>
-      <Col>
-        <Carousel>
-          <Carousel.Item>
-            <img
-              className="d-block w-75 mx-auto"
-              src={img1}
-              alt="First slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-75 mx-auto"
-              src={img2}
-              alt="First slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-75 mx-auto"
-              src={img3}
-              alt="First slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-75 mx-auto"
-              src={img4}
-              alt="First slide"
-            />
-          </Carousel.Item>
-        </Carousel>
-      </Col>
-    </Row>
-  </Container>
-);
+const Photos = () => {
+  const [imageUrls, setImageUrls] = useState<string[]>([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try{
+        const firebaseApp = initApp;
+        console.log(firebaseApp)
+        const storage = getStorage(firebaseApp, 'gs://maepatricia-aad6b.appspot.com');
+        const imagesRef = ref(storage, 'fotos');
+        const images = await listAll(imagesRef);
+        const urls = await Promise.all(
+          images.items.map(async (imageRef) => {
+            const url = await getDownloadURL(imageRef);
+            return url;
+          })
+        );
+        setImageUrls(urls);
+      }catch(error){
+        console.log(error,"deu erro aqui");
+      }
+   
+    };
+    fetchData();
+  }, []);
+
+  return (
+    <Container>
+      <Row>
+        <Col>
+          <Carousel>
+            {imageUrls.map((imageUrl) => (
+              <Carousel.Item key={imageUrl}>
+                <img className="d-block w-75 mx-auto" src={imageUrl} alt="slide" />
+              </Carousel.Item>
+            ))}
+          </Carousel>
+        </Col>
+      </Row>
+    </Container>
+  );
+};
 
 export default Photos;
